@@ -11,11 +11,11 @@ public class Utils {
     }
 
 
-    public static String getContractsBasePath(String pack, String contract) {
+    public static String getSchemaBasePath(String pack, String contract) {
         return  System.getProperty("user.dir")
                 + "/src/test/java/api/chucknorris/io/tests/"
                 + pack
-                + "/contracts/"
+                + "/schemas/"
                 + contract
                 + ".json";
     }

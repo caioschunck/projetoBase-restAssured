@@ -1,11 +1,11 @@
 api\chucknorris\io\tests\random\requests\RandomRequest.class
+api\chucknorris\io\suites\SchemaTests.class
 api\chucknorris\io\runners\AllTests.class
-api\chucknorris\io\runners\ContractTests.class
+api\chucknorris\io\runners\SchemaTests.class
 api\chucknorris\io\tests\categories\tests\CategoriasTest.class
 api\chucknorris\io\tests\base\tests\BaseTest.class
 api\chucknorris\io\tests\search\tests\SearchTest.class
 api\chucknorris\io\suites\AllTests.class
-api\chucknorris\io\suites\ContractTests.class
 api\chucknorris\io\tests\base\requests\BaseRequest.class
 api\chucknorris\io\tests\search\requests\SearchRequest.class
 api\chucknorris\io\tests\categories\requests\CategoriasRequest.class
