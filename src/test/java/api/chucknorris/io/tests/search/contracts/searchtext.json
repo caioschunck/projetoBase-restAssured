@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "required": [
+    "total",
+    "result"
+  ],
+  "properties": {
+    "total": {
+      "type": "integer"
+    },
+    "result": {
+      "type": "array",
+      "items": [{
+            "type": "object",
+            "required": [
+              "categories",
+              "created_at",
+              "icon_url",
+              "id",
+              "updated_at",
+              "url",
+              "value"
+            ],
+            "properties": {
+              "categories": {
+                "type": "array",
+                "items": {
+                }
+              },
+              "created_at": {
+                "type": "string"
+              },
+              "icon_url": {
+                "type": "string"
+              },
+              "id": {
+                "type": "string"
+              },
+              "updated_at": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
