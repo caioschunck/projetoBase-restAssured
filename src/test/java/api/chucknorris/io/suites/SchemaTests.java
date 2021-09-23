@@ -1,4 +1,4 @@
 package api.chucknorris.io.suites;
 
-public interface ContractTests {
+public interface SchemaTests {
 }

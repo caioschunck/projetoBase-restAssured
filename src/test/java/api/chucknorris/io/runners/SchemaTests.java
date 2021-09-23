@@ -9,12 +9,12 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Categories.class)
-@Categories.IncludeCategory(api.chucknorris.io.suites.ContractTests.class)
+@Categories.IncludeCategory(api.chucknorris.io.suites.SchemaTests.class)
 @Suite.SuiteClasses({
         RandomTest.class,
         SearchTest.class,
         CategoriasTest.class,
 })
 
-public class ContractTests {
+public class SchemaTests {
 }
