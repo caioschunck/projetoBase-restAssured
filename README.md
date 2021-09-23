@@ -5,7 +5,7 @@ Projeto base de automação de API com restAssured
 API publica (GET) - https://api.chucknorris.io/
 
 https://api.chucknorris.io/jokes/categories
-- statusCode e tempo de resposta    
+- statuscode e tempo de resposta    
 - schema							
 
 https://api.chucknorris.io/jokes/random?category={category}
@@ -15,7 +15,7 @@ https://api.chucknorris.io/jokes/random?category={category}
 - categoria inválida 
 
 https://api.chucknorris.io/jokes/random
-- statusCode e tempo de resposta 
+- statuscode e tempo de resposta 
 - schema 
 
 https://api.chucknorris.io/jokes/search?query={query}
